@@ -1,6 +1,7 @@
 // Explain this function in simple terms:
 // imports
-import List from './components/List';
+import Button from './components/Button';
+import Image from './components/Image';
 
 function App() {
   //Props
@@ -35,12 +36,7 @@ function App() {
   //items is called a 'key'
   return (
     <>
-      {/** if true && truthy then return*/}
-      {arrayFruit.length > 0 && <List items={arrayFruit} emoji={emojies} />}
-      {/** if true return : otherwise null */}
-      {arrayVeges.length > 0 ? (
-        <List items={arrayVeges} category={'catgory'} emoji={emojies} />
-      ) : null}
+      <Image></Image>
     </>
   );
 }
