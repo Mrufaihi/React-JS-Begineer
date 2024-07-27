@@ -1,19 +1,11 @@
 // Explain this function in simple terms:
 // imports
-import Counter from './components/Counter';
+import OnChange from './components/OnChange';
 
 function App() {
   //Props
 
-<<<<<<< Updated upstream
-  return (
-    <>
-      <Counter />
-    </>
-  );
-=======
-  return <Counter />;
->>>>>>> Stashed changes
+  return <OnChange />;
 }
 // propType;
 
