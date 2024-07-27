@@ -1,14 +1,13 @@
 // Explain this function in simple terms:
 // imports
-import Button from './components/Button';
-import Image from './components/Image';
+import Counter from './components/Counter';
 
 function App() {
   //Props
 
   return (
     <>
-      <Image></Image>
+      <Counter />
     </>
   );
 }
