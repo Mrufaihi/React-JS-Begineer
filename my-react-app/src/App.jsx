@@ -1,12 +1,12 @@
 // Explain this function in simple terms:
 // imports
 
-import FruitArray from './components/FruitArray';
+import CarArrayOfObj from './components/CarArrayOfObj';
 
 function App() {
   //Props
 
-  return <FruitArray />;
+  return <CarArrayOfObj />;
 }
 // propType;
 
