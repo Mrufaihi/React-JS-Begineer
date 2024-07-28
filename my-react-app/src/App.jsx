@@ -1,11 +1,11 @@
 // Explain this function in simple terms:
 // imports
-import ColorPicker from './components/ColorPicker';
+import Counter from './components/Counter';
 
 function App() {
   //Props
 
-  return <ColorPicker />;
+  return <Counter />;
 }
 // propType;
 
