@@ -1,11 +1,11 @@
 // Explain this function in simple terms:
 // imports
-import OnChange from './components/OnChange';
+import ColorPicker from './components/ColorPicker';
 
 function App() {
   //Props
 
-  return <OnChange />;
+  return <ColorPicker />;
 }
 // propType;
 
