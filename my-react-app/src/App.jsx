@@ -1,11 +1,11 @@
 // Explain this function in simple terms:
 // imports
-import Counter from './components/Counter';
+import CarObject from './components/CarObject';
 
 function App() {
   //Props
 
-  return <Counter />;
+  return <CarObject />;
 }
 // propType;
 
