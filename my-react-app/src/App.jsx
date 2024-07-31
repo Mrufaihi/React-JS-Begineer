@@ -1,10 +1,10 @@
 // Explain this function in simple terms:
 // imports
 
-import DigitalClock from './components/DigitalClock';
+import ComponentA from './components/ComponentA';
 
 function App() {
-  return <DigitalClock />;
+  return <ComponentA />;
 }
 // propType;
 
