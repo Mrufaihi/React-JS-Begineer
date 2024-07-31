@@ -1,9 +1,13 @@
-// Explain this function in simple terms:
 // imports
-import UseRef from './components/UseRef';
+import StopWatch from './components/StopWatch';
 
 function App() {
-  return <UseRef />;
+  return (
+    <>
+      <StopWatch />
+      <StopWatch />
+    </>
+  );
 }
 // propType;
 

@@ -10,14 +10,47 @@ body {
   justify-content: center;
   align-items: center;
 }
-.box {
-  border: 5px solid black;
-  padding: 2rem;
+
+.stop-watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid black;
+  padding: 5rem;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 10px gray;
+  margin: 4rem;
+}
+.time-display {
+  font-size: 6rem;
+}
+.btn {
+  font-size: 5rem;
+  padding: 3rem;
+  margin: 2rem;
+  border: 3px solid gray;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+  color: hsl(0, 0%, 90%);
 }
 
-/* ignore this */
-.clock-background {
-  background-color: rgb(37, 37, 37);
-  border-radius: 50px;
-  padding: 2rem;
+.btn-start {
+  background-color: green;
+}
+.btn-start:hover {
+  background-color: hsl(120, 100%, 20%);
+}
+.btn-stop {
+  background-color: red;
+}
+.btn-stop:hover {
+  background-color: hsl(0, 100%, 30%);
+}
+.btn-reset {
+  background-color: blue;
+}
+.btn-reset:hover {
+  background-color: hsl(240, 100%, 30%);
 }
