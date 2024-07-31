@@ -1,10 +1,10 @@
 // Explain this function in simple terms:
 // imports
 
-import UseEffect from './components/UseEffect';
+import DigitalClock from './components/DigitalClock';
 
 function App() {
-  return <UseEffect />;
+  return <DigitalClock />;
 }
 // propType;
 
