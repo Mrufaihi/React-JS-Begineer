@@ -21,3 +21,7 @@ body {
   font-size: 4rem;
   text-shadow: 0 0 10px lightgray;
 }
+.clock-background {
+  background-color: rgb(37, 37, 37);
+  padding: 2rem;
+}
