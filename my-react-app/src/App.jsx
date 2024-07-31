@@ -1,10 +1,9 @@
 // Explain this function in simple terms:
 // imports
-
-import ComponentA from './components/ComponentA';
+import UseRef from './components/UseRef';
 
 function App() {
-  return <ComponentA />;
+  return <UseRef />;
 }
 // propType;
 
